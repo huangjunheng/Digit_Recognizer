@@ -11,7 +11,7 @@ from from_csdn import CNN
 
 batchsz = 64
 lr = 1e-3
-epochs = 30
+epochs = 35
 
 data = pd.read_csv('./data/train.csv')
 test = pd.read_csv('./data/test.csv')
