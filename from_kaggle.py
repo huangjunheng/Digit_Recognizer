@@ -1,7 +1,7 @@
 import torch
 from torch import nn
 
-
+# 来自kaggle上的网络 https://www.kaggle.com/cdeotte/how-to-choose-cnn-architecture-mnist
 class CNN_Kaggle(nn.Module):
 
     def __init__(self):
